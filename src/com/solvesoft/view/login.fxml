@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="apLoginPrincipal" prefHeight="420.0" prefWidth="774.0" styleClass="background" stylesheets="@../css/login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.solvesoft.controller.LoginController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="420.0" prefWidth="774.0">
+         <children>
+            <VBox alignment="TOP_RIGHT" prefHeight="420.0" prefWidth="692.0">
+               <children>
+                  <AnchorPane prefHeight="420.0" prefWidth="492.0">
+                     <children>
+                        <AnchorPane layoutX="346.0" layoutY="26.0" prefHeight="369.0" prefWidth="322.0" styleClass="background-form">
+                           <children>
+                              <JFXTextField focusColor="#1d3a90" labelFloat="true" layoutX="14.0" layoutY="87.0" prefHeight="25.0" prefWidth="290.0" promptText="Usuario" unFocusColor="BLACK" />
+                              <JFXPasswordField focusColor="#1d3a90" labelFloat="true" layoutX="16.0" layoutY="150.0" prefHeight="25.0" prefWidth="290.0" promptText="Password" unFocusColor="BLACK" />
+                              <JFXComboBox focusColor="#1d3a90" labelFloat="true" layoutX="14.0" layoutY="223.0" prefHeight="25.0" prefWidth="290.0" promptText="Tipo" unFocusColor="BLACK" />
+                              <JFXButton buttonType="RAISED" layoutX="16.0" layoutY="302.0" prefHeight="38.0" prefWidth="290.0" styleClass="btn-ingresar" text="INGRESAR" />
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="14.0" prefHeight="38.0" prefWidth="290.0" text="Sign In" textAlignment="CENTER" textFill="#9e5858">
+                                 <font>
+                                    <Font name="SansSerif Bold" size="26.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children></AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

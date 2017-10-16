@@ -1,0 +1,22 @@
+#apLoginPrincipal{
+    -fx-background-image: url(../images/fondo-azul-blue-cuadros-fotorecurso.jpg);
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+}
+
+.background{
+    -fx-background-image: url(../images/fondo-azul-blue-cuadros-fotorecurso.jpg);
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+.background-form{
+    -fx-background-image: url(../images/yellow.png);
+    -fx-background-repeat: stretch;
+    /*-fx-background-position: center center;*/
+}
+
+.btn-ingresar{
+    -fx-background-color: #039BE5;
+    -fx-font-weight: bold;
+}
