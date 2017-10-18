@@ -20,3 +20,13 @@
     -fx-background-color: #039BE5;
     -fx-font-weight: bold;
 }
+
+.form-login{
+    -fx-background-color: rgb(255,255,255);
+    -fx-effect:  dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);
+    -fx-background-radius: 3;
+}
+
+.text-color{
+    -fx-color: #e74c3c;
+}
